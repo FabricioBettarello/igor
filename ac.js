@@ -1,27 +1,31 @@
-class Geral{
-    constructor(bebida, lanche, batata){
+class McLanche {
+    constructor(carne, queijo, batatap, fruta) {
+        this.carne = carne;
+        this.queijo = queijo;
+        this.batatap = batatap;
+        this.fruta = fruta;
+    }
+}
+
+class Big {
+    constructor(alface, queijo, molho, cebola, picles, pao, batatam, bebida) {
+        this.alface = alface;
+        this.queijo = queijo;
+        this.molho = molho;
+        this.cebola = cebola;
+        this.picles = picles;
+        this.pao = pao;
+        this.batatam = batatam;
         this.bebida = bebida;
-        this.lanche = lanche;
-        this.batata = batata;
     }
 }
 
-class Lanche{
-    constructor(McLanche, Big, McHen) { 
-        this.McLanche = McLanche;
-        this.Big = Big;
-        this.lanchonetenome = lanchonetenome;
+class McHen {
+    constructor(alface, queijo, picles, batatap, batatam) {
+        this.alface = alface;
+        this.queijo = queijo;
+        this.picles = picles;
+        this.batatap = batatap;
+        this.batatam = batatam;
     }
 }
-
-venda(pedido, valor) {
-        if (cpf === conta.cpf) {
-            //Essa função envia os valores ao banco do funcionário
-            //já chequei os parâmetros de envio e estão certos
-            bankApi.addValueBank(conta, valor);
-    }
-}
-
-
-
-
